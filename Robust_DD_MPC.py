@@ -35,7 +35,6 @@ L = L_true + nu  # Full prediction horizon (including initial conditions)
 T = 600  # "Closed-loop horizon" (simulation length)
 m = 2; p = 2  # Number of inputs and outputs
 
-
 data = scipy.io.loadmat('tank_sys2.mat')
 
 # Extract the system matrices
